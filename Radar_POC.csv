@@ -1,0 +1,18 @@
+name,ring,quadrant,isNew,description
+Canary builds,trial,techniques,FALSE,Many projects have external code dependencies ...
+Apache Kylin,assess,platforms,TRUE,Apache Kylin is an open source analytics solution ...
+JSF,hold,languages & frameworks,FALSE,We continue to see teams run into trouble using JSF ...
+Apache Kafka,trial,tools,FALSE,POC has been performed using Apacha Kafka for streaming SQL Server changes in realtime to Kafka
+Terraform,trial,tools,FALSE,Terraform is currently being trialled to implement infrastructure as Code
+Zipkin,adopt,tools,FALSE,Zipkin has been implemented to perform transaction monitoring in Kong Platform to monitor time taken at each layer.
+Jenkins as a deployment pipeline,adopt,tools,FALSE,Jenkins is being used to deploy in some projects
+React.js,adopt,languages & frameworks,FALSE,Being used in mutpile apppications.
+Spring Boot,adopt,languages & frameworks,FALSE,Being used in mutpile apppications.
+Vue.js,assess,languages & frameworks,TRUE,Being used in mutpile apppications.
+AngularJS,adopt,languages & frameworks,FALSE,Being used in mutpile apppications.
+Docker,adopt,platforms,FALSE,Docker containers are being used in different projects.
+Kubernetes,trial,platforms,FALSE,Kubenetes has been trialled to implement Kong in container.
+Grafana,adopt,tools,TRUE,Grafana has been implemented to visualize performance and transaction matrices using out of the box and customised dashboards.
+.NET Core,adopt,platforms,FALSE,.NET is being used by different applications.
+Kong API Gateway,adopt,platforms,FALSE,Kong API platform is deplpoyed.
+Infrastructure as code,adopt,techniques,FALSE,Infrsatructure as Code is being used as different levels of maturity.
