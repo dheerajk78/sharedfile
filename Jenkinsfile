@@ -1,17 +1,11 @@
 pipeline {
-    agent any
-    parameters {
-        string(name: 'Greeting', defaultValue: 'Hello', description: 'How should I greet the world?')
+    agent {
+        docker { image 'node:16.13.1-alpine' }
     }
     stages {
-        stage('Example') {
+        stage('Test') {
             steps {
-                echo "${params.Greeting} World!"
-            }
-        }
-        stage('Next_Stage') {
-            steps {
-                echo "Step 1"
+                sh 'node --version'
             }
         }
     }
