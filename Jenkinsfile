@@ -13,9 +13,6 @@ pipeline {
             steps {
                 echo "Step 1"
             }
-            steps {
-                echo "Step 2"
-            }
         }
     }
 }
